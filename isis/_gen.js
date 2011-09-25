@@ -43,7 +43,7 @@ var generate = function(action) {
 			'./app/client/' : null,
 			'./app/server/' : null,
 			'./app/shared/' : null,
-			'./app/handler.js' : 'handler.js',
+			'./app/server/handler.js' : 'handler.js',
 			'./launch.js' : 'launch.js'
 		}
 	} else if (action) {
