@@ -26,4 +26,4 @@ Isis can now be run with `node launch`, like so:
 Contributing
 ------------
 
-You are welcome to fork the code and submit 
+You are welcome to fork the code and submit reports, as necessary.
