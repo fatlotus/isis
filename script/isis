@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var gen = require(fs.realpathSync(__dirname + '/../isis') + '/_gen.js')
+var args = process.argv.slice(2);
+
+process.exit(gen.execute(args));
