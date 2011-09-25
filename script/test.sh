@@ -5,4 +5,6 @@ cd test/ &&
 echo "$ isis" &&
 ../script/isis &&
 echo "$ isis create ." &&
-../script/isis create .
+../script/isis create . &&
+echo "$ node launch" &&
+node launch
